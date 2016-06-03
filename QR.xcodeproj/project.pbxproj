@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9444DEA41D013A1400935A80 /* CIFilterEffect.m in Sources */ = {isa = PBXBuildFile; fileRef = 9444DEA31D013A1400935A80 /* CIFilterEffect.m */; };
+		9444DEA71D013B9C00935A80 /* QRScanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9444DEA61D013B9C00935A80 /* QRScanViewController.m */; };
 		94F9844A1C855D8F00E0F651 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 94F984491C855D8F00E0F651 /* main.m */; };
 		94F9844D1C855D8F00E0F651 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 94F9844C1C855D8F00E0F651 /* AppDelegate.m */; };
 		94F984501C855D8F00E0F651 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 94F9844F1C855D8F00E0F651 /* ViewController.m */; };
@@ -16,6 +18,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9444DEA21D013A1400935A80 /* CIFilterEffect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CIFilterEffect.h; sourceTree = "<group>"; };
+		9444DEA31D013A1400935A80 /* CIFilterEffect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CIFilterEffect.m; sourceTree = "<group>"; };
+		9444DEA51D013B9C00935A80 /* QRScanViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QRScanViewController.h; sourceTree = "<group>"; };
+		9444DEA61D013B9C00935A80 /* QRScanViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QRScanViewController.m; sourceTree = "<group>"; };
 		94F984451C855D8F00E0F651 /* QR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QR.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		94F984491C855D8F00E0F651 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		94F9844B1C855D8F00E0F651 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -58,6 +64,10 @@
 		94F984471C855D8F00E0F651 /* QR */ = {
 			isa = PBXGroup;
 			children = (
+				9444DEA51D013B9C00935A80 /* QRScanViewController.h */,
+				9444DEA61D013B9C00935A80 /* QRScanViewController.m */,
+				9444DEA21D013A1400935A80 /* CIFilterEffect.h */,
+				9444DEA31D013A1400935A80 /* CIFilterEffect.m */,
 				94F9844B1C855D8F00E0F651 /* AppDelegate.h */,
 				94F9844C1C855D8F00E0F651 /* AppDelegate.m */,
 				94F9844E1C855D8F00E0F651 /* ViewController.h */,
@@ -110,6 +120,7 @@
 				TargetAttributes = {
 					94F984441C855D8F00E0F651 = {
 						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = T3W8PQ5ZQ2;
 					};
 				};
 			};
@@ -151,6 +162,8 @@
 			files = (
 				94F984501C855D8F00E0F651 /* ViewController.m in Sources */,
 				94F9844D1C855D8F00E0F651 /* AppDelegate.m in Sources */,
+				9444DEA71D013B9C00935A80 /* QRScanViewController.m in Sources */,
+				9444DEA41D013A1400935A80 /* CIFilterEffect.m in Sources */,
 				94F9844A1C855D8F00E0F651 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -261,6 +274,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = QR/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.moonagic.QR;
@@ -272,6 +286,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = QR/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.moonagic.QR;
@@ -298,6 +313,7 @@
 				94F9845E1C855D8F00E0F651 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
